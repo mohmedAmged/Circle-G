@@ -1,0 +1,47 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: 'Saira', sans-serif !important;
+  /* height: 300vh; */
+  /* background-color: rgba(0, 0, 0, 0.74) !important; */
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+img{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+ul{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sec_padding{
+  padding: 120px 0;
+}
+.sec_margin{
+  margin: 120px 0;
+}
+
+:root {
+  --nav-Bg: #000000; 
+  --dark-black-bg: #17161a;
+  --soft-black-bg: #111215;
+  /* new #231f20 black */
+  /* --gold-color: #b88c4f; */
+  /* new */
+  --gold-color: #ffb703;
+  /* --dark-gold-color: #fabc3c; */
+  /* new */
+  --dark-gold-color: #e0a104;
+  /* --gold-gredient: linear-gradient(90deg, #b88c4f 1.05%, #fabc3c); */
+  --gold-gredient: linear-gradient(90deg, #ffb703 1.05%, #916b0c);
+}

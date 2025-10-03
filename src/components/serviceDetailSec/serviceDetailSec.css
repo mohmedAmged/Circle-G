@@ -1,0 +1,110 @@
+.single__service__description,
+.single__service__techniques
+{
+    margin-bottom: 80px;
+}
+.single__service__description h3,
+.single__service__techniques h3,
+.single__service__workProcess h3
+{
+    color: #17161a;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.single__service__description h3 img,
+.single__service__techniques h3 img
+{
+    margin-right: -20px;
+    position: relative;
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+    filter: grayscale(100%) brightness(0%);
+    opacity: .5;
+}
+.single__service__description p{
+    color: #272727;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+.single__service__techniques li{
+    margin-bottom: 10px;
+    background: var(--soft-black-bg);
+    color: #fff;
+    border: 1px solid rgba(217, 10, 44, .2);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.single__service__techniques li p{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+.single__service__techniques li::before{
+    content: "";
+    position: absolute;
+    background: radial-gradient(105.91% 105.91% at 37.1% 19.35%, rgba(255, 208, 1, 0.3) 0, rgba(217, 10, 44, 0) 83.11%);
+    border-radius: 50%;
+    bottom: -10px;
+    height: 100px;
+    opacity: .6;
+    right: -5px;
+    width: 100px;
+}
+.single__service__techniques li strong,
+.single__service__workProcess li strong
+{
+    display: block;
+    color: var(--dark-gold-color);
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.single__service__workProcess .process__card{
+    background: #fff;
+    border: 1px solid rgba(250, 187, 60, 0.6);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.single__service__workProcess .process__card .process__count{
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}
+.single__service__workProcess .process__card .process__count span{
+    -webkit-text-stroke: 1px #17161a;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1;
+    opacity: .3;
+    text-align: center;
+    text-transform: capitalize;
+}
+.single__service__workProcess li strong{
+    color: #17161a;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.single__service__workProcess li p{
+    color: #272727;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}

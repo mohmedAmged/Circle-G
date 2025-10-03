@@ -1,0 +1,169 @@
+.logo__Width {
+    max-width: 88px;
+}
+
+.nav__Bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav__absolute {
+    position: absolute !important;
+    background: transparent !important;
+    transform: translateY(0) !important;
+    -webkit-transform: translateY(0) !important;
+    -moz-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    -o-transform: translateY(0) !important;
+}
+.nav__relative {
+    position: relative !important;
+    background: transparent !important;
+    transform: translateY(0) !important;
+    -webkit-transform: translateY(0) !important;
+    -moz-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    -o-transform: translateY(0) !important;
+}
+.nav__fixed {
+    position: fixed !important;
+    box-shadow: 0 2px 5px var(--nav-Bg);
+    background-color: var(--nav-Bg) !important;
+    opacity: 0.9;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+.navTransformationDown {
+    transform: translateY(0);
+    animation-name: navTransformationDown;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+@keyframes navTransformationDown {
+    0% {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.nav__link__style {
+    display: flex !important;
+    align-items: center !important;
+    margin: 20px 0 !important;
+    position: relative !important;
+    font-size: 16px !important;
+    line-height: 19px;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-style: normal;
+    text-transform: capitalize !important;
+    transition: all 0.3s linear;
+}
+
+.nav__link__style:hover {
+    background: -webkit-linear-gradient(90deg, #fabc3c 1.05%, #b88c4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700 !important;
+}
+
+.navbar-nav .nav-link.link__item.active {
+    background: -webkit-linear-gradient(90deg, #fabc3c 1.05%, #b88c4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.get__touch__btn {
+    background: var(--gold-gredient);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+    transition: all .5s ease-out 0s;
+}
+.hover__effect::before{
+    background: #000;
+    content: "";
+    height: 0;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+    transform: translate(-50%,-50%) rotate(-45deg);
+    width: 100%;
+    z-index: -1;
+    transition: all .5s ease-out 0s;
+}
+.hover__effect:hover:before{
+    height: 380%;
+}
+.get__touch__btn:hover{
+    box-shadow: 0 0 5px hsla(0,0%,100%,.3);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.Navbar__offCanvas__none__on__lg {
+    display: none !important;
+}
+
+.Navbar__Collapse__none__on__med {
+    display: block !important;
+}
+
+.offcanvas {
+    background: var(--nav-Bg) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../../assets/svgIcons/download.svg");
+    filter: invert(100%) sepia(39%) saturate(2%) hue-rotate(118deg) brightness(103%) contrast(100%);
+}
+
+.btn-close {
+    filter: invert(100%) sepia(39%) saturate(2%) hue-rotate(118deg) brightness(103%) contrast(100%);
+}
+
+/* start ersposnive */
+@media screen and (max-width: 993px) {
+    .Navbar__offCanvas__none__on__lg {
+        display: block !important;
+    }
+
+    .Navbar__Collapse__none__on__med {
+        display: none !important;
+    }
+
+    .noneOnMediumScreen {
+        display: none !important;
+    }
+
+    .blockOnSmallScreen {
+        display: flex !important;
+    }
+
+}

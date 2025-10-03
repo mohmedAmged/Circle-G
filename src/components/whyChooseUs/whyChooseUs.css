@@ -1,0 +1,75 @@
+.image__left__demo{
+    position: relative;
+    z-index: 1;
+}
+/* .image__left__demo::before{
+    background: linear-gradient(233.77deg,rgba(250, 187, 60, 0.5) .94%,rgba(184, 140, 79, 0.3) 99.09%);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+} */
+.image__left__demo img{
+    width: 100%;
+    height: 450px;
+}
+.skills__info__handler img{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 350px;
+    vertical-align: middle;
+}
+.skills__info__handler .single__skill__bar{
+    padding-top: 30px;
+}
+.skills__info__handler .single__skill__bar h6{
+    color: #111;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.skills__info__handler .single__skill__bar .parrent__div{
+    display: flex;
+    align-items: center;
+}
+.skills__info__handler .single__skill__bar .first__div{
+    height: 5px;
+    background: rgba(240, 181, 99, 0.5);
+    border-radius: 50px;
+    width: 100%;
+}
+.skills__info__handler .single__skill__bar .second__div{
+    height: 5px;
+    /* width: 85%; */
+    background: #fabc3c;
+    transition: width 1s ease-in-out 0s;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+}
+.skills__info__handler .single__skill__bar .bar__tit{
+    padding: 0px 0px 0px 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    display: initial;
+}
+.width_85{
+    width: 85%;
+}
+.width_80{
+    width: 80%;
+}
+.width_70{
+    width: 70%;
+}
+.width_75{
+    width: 75%;
+}

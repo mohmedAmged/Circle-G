@@ -1,0 +1,110 @@
+.project__main__details {
+    margin-bottom: 120px;
+}
+.project__item__detail{
+    text-align: left;
+}
+.project__item__detail h4{
+    color: #111;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.project__item__detail span{
+    color: #6a696c;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.project__item__detail .link__view{
+    transition: all .5s ease-out 0s;
+    text-transform: capitalize;
+}
+.project__item__detail .link__view i{
+    transition: all .5s ease-out 0s;
+}
+.project__item__detail .link__view:hover{
+    color: #b88c4f;
+
+}
+.project__item__detail .link__view:hover i{
+    margin-left: 5px;
+}
+.project__banner{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.project__banner img{
+    width: 100%;
+    /* height: 500px; */
+}
+.project__overview{
+    margin-bottom: 60px;
+}
+.project__overview h3{
+    color: #2e2d31;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.overview__img img{
+    width: 100%;
+}
+.overview__content h3,
+.project__process h3,
+.project__launch h3
+{
+    color: #2e2d31;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.overview__content p{
+    color: #272727;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+}
+.project__process{
+    margin-bottom: 60px;
+}
+.project__single__process{
+    cursor: pointer;
+}
+.project__single__process h4{
+    background: #111;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .5s ease-out 0s;
+}
+.project__process__img{
+    overflow: hidden;
+}
+.project__process__img img{
+    transition: all .5s ease-out 0s;
+    width: 100%;
+}
+.project__single__process:hover .project__process__img img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+@media screen and (max-width: 767px) {
+    .project__item__detail{
+        margin-bottom: 10px;
+    }
+    .project__banner img{
+        height: auto;
+    }
+    .project__single__process{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,9 @@
+
+@media (max-width: 767px){
+    .projectCards__handler .main__title{
+        text-align: center;
+    }
+    .projectCards__handler .main__title h2{
+        font-size: 30px;
+    }
+}
