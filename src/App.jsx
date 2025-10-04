@@ -701,7 +701,7 @@ const servicesArray = [
     }
   });
   return (
-    <>
+    <div className='full-height'>
       <MyNav scrollToggle={scrollToggle} />
       <ScrollToTopButton />
       <Routes>
@@ -713,7 +713,7 @@ const servicesArray = [
         {/* <Route path='/projects/:projectName' element={<SingleProjectPage projectDetails={projectDetails} projcetCards={projcetCards}/>} /> */}
       </Routes>
       <MyFooter />
-    </>
+    </div>
   );
 }
 
