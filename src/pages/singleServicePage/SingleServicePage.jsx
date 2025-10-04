@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import HeroPageSec from '../../components/heroPageSec/HeroPageSec';
 import ServiceDetailSec from '../../components/serviceDetailSec/ServiceDetailSec';
 import LetsTalkSec from '../../components/letsTalkSec/LetsTalkSec';
-export default function SingleServicePage({ servicesArray, servicesInformation }) {
+export default function SingleServicePage({ servicesInformation }) {
     const { serviceName } = useParams();
     const service = servicesInformation?.find(service => service?.serviceName?.toLowerCase() === serviceName?.toLowerCase());
     return (

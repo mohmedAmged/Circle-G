@@ -2,9 +2,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import MyNav from './components/myNav/MyNav';
 import { useState } from 'react';
-import MyMainHome from './pages/myMainHome/MyMainHome';
-import MyAllServices from './pages/myAllServices/MyAllServices';
-import SingleServicePage from './pages/singleServicePage/SingleServicePage';
+
 import webIcon from './assets/svgIcons/web.png'
 import mopileIcon from './assets/svgIcons/mobile-development.png'
 import UiUx from './assets/svgIcons/ui-ux.png'
@@ -14,8 +12,8 @@ import content from './assets/svgIcons/content.png'
 import ai from './assets/svgIcons/automation.png'
 import support from './assets/svgIcons/maintenance.png'
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
-import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
-import SingleProjectPage from './pages/singleProjectPage/SingleProjectPage';
+// import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
+// import SingleProjectPage from './pages/singleProjectPage/SingleProjectPage';
 // import step1 from "./assets/projectcardDetails/project-single-step-1.jpg"
 import vilichesMock from './assets/projectsImgs/viliches.png'
 import landScapeMock from './assets/projectsImgs/landscape.png'
@@ -32,6 +30,9 @@ import logo3 from './assets/partnerLogos/logo3.png'
 import logo4 from './assets/partnerLogos/logo4.png'
 import logo5 from './assets/partnerLogos/logo5.png'
 import logo6 from './assets/partnerLogos/logo10.png'
+import MyMainHome from './pages/myMainHome/MyMainHome';
+import MyAllServices from './pages/myAllServices/MyAllServices';
+import SingleServicePage from './pages/singleServicePage/SingleServicePage';
 function App() {
   const projcetCards = [
     {

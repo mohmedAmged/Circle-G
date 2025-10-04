@@ -1,11 +1,11 @@
 import './myMainHome.css'
-import HomeHeroSlider from '../../components/homeHeroSlider/HomeHeroSlider'
 import MyServices from '../../components/MyServices/MyServices'
 import AboutUsSec from '../../components/aboutUsSec/AboutUsSec'
 // import HomeProjects from '../../components/homeProjects/HomeProjects'
 import WhyChooseUs from '../../components/whyChooseUs/WhyChooseUs'
 import LetsTalkSec from '../../components/letsTalkSec/LetsTalkSec'
 import OurPartnerSec from '../../components/ourPartnerSec/OurPartnerSec'
+import HomeHeroSlider from '../../components/homeHeroSlider/HomeHeroSlider'
 export default function MyMainHome({servicesArray,  partnerArr}) {
 
     return (
