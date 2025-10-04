@@ -703,7 +703,6 @@ const servicesArray = [
   return (
     <div className='App'>
       <MyNav scrollToggle={scrollToggle} />
-      <ScrollToTopButton />
       <main>
         <Routes>
           <Route path='/' element={<MyMainHome partnerArr={partnerArr} projcetCards={projcetCards} servicesArray={servicesArray} />} />
@@ -715,6 +714,8 @@ const servicesArray = [
         </Routes>
       </main>
       <MyFooter />
+      <ScrollToTopButton />
+
     </div>
   );
 }
