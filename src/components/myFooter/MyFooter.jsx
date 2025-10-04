@@ -41,39 +41,40 @@ export default function MyFooter() {
                             </div>
                         </div>
                         <div className="col-md-3 col-lg-3 col-xl-3">
-                            <div className="footer__box">
-                                <h4>
-                                    our services
-                                </h4>
-                                <ul className='footer__menu'>
-                                    <li>
-                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Web Development'}>
-                                            Web Development
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink onClick={()=>scrollToTop()} to={'/services/App Development'}>
-                                            App Development
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Ai Development'}>
-                                            Ai Development
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Backend'}>
-                                            Backend Development
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Technical Support'}>
-                                        Technical Support
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+  <div className="footer__box">
+    <h4>
+      Our Services
+    </h4>
+    <ul className="footer__menu">
+      <li>
+        <NavLink onClick={() => scrollToTop()} to={'/services/Software Solutions'}>
+          Software Solutions
+        </NavLink>
+      </li>
+      <li>
+        <NavLink onClick={() => scrollToTop()} to={'/services/Social Media & Marketing'}>
+          Social Media & Marketing
+        </NavLink>
+      </li>
+      <li>
+        <NavLink onClick={() => scrollToTop()} to={'/services/Content Creation'}>
+          Content Creation
+        </NavLink>
+      </li>
+      <li>
+        <NavLink onClick={() => scrollToTop()} to={'/services/Graphic Design & Branding'}>
+          Graphic Design & Branding
+        </NavLink>
+      </li>
+       <li>
+        <NavLink onClick={() => scrollToTop()} to={'/services/Business Strategy'}>
+          Business Strategy
+        </NavLink>
+      </li>
+    </ul>
+  </div>
+</div>
+
                         <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer__box">
                                 <h4>
@@ -90,11 +91,11 @@ export default function MyFooter() {
                                             Services
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink onClick={()=>scrollToTop()} to={'/projects'}>
                                             Projects
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -131,7 +132,7 @@ export default function MyFooter() {
                         <div className="col-lg-12">
                         <div class="copy__text text-center">
                             <span>
-                                Copyright 2024 <b>HOLITECH</b> | Design By <a rel="noopener noreferrer" href="https://www.egenslab.com/" target="_blank" >Egens Lab</a>
+                                Copyright 2024 <b>CIRCLE-G</b> | Design By <a rel="noopener noreferrer" href="https://www.egenslab.com/" target="_blank" >Egens Lab</a>
                             </span>
                         </div>
                         </div>

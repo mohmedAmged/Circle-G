@@ -22,10 +22,14 @@ export default function AboutContent() {
                             <div className="content__item">
                                 <div className="main__title black">
                                     <span>INSIDE STORY</span>
-                                    <h2>Crafting Innovative Solutions for Success.</h2>
+                                    <h2>Empowering Businesses with Smart Solutions.</h2>
                                 </div>
                                 <p>
-                                    Holitech was founded with a vision to revolutionize the digital landscape by providing cutting-edge technology solutions. Our journey began with a small team of dedicated individuals passionate about innovation and creativity. Over the years, we've grown into a leading tech company, serving clients worldwide with our expertise in web and mobile application development.
+                                    Circle G was built on the vision of helping businesses grow through innovation, creativity,
+                                    and strategy. What started as a small team of passionate creators has evolved into a
+                                    full-service solutions partner. Today, we specialize in delivering <strong>software solutions</strong>,
+                                    <strong>branding & design</strong>, <strong>business strategies</strong>, and <strong>marketing & content</strong>
+                                    that empower our clients to achieve lasting success in an ever-changing digital world.
                                 </p>
                             </div>
                         </div>
@@ -34,16 +38,22 @@ export default function AboutContent() {
                 <div className="our__team__handler sec_margin">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="content__item ">
+                            <div className="content__item">
                                 <div className="main__title black">
                                     <span>Our Team</span>
-                                    <h2>Meet Our Dedicated Team.</h2>
+                                    <h2>Meet the Minds Driving Innovation.</h2>
                                 </div>
                                 <p>
-                                Our team is the backbone of Holitech, comprising talented developers, designers, and strategists who share a common goal of delivering excellence. We foster a culture of collaboration, creativity, and continuous learning, empowering each team member to contribute their unique skills and expertise to our projects.
+                                    At Holitech, our team is the heart of everything we do. From visionary
+                                    strategists and creative designers to skilled developers and marketing
+                                    experts, each member brings unique expertise and passion to the table.
+                                    Together, we blend technology, creativity, and business insight to craft
+                                    solutions that empower brands, accelerate growth, and shape meaningful
+                                    digital experiences.
                                 </p>
                             </div>
                         </div>
+
                         <div className="col-lg-6">
                             <div className="image__item">
                                 <div className="group__img">
@@ -66,26 +76,32 @@ export default function AboutContent() {
                             <div className="content__item">
                                 <div className="main__title black">
                                     <span>Our Values</span>
-                                    <h2>Guiding Principles.</h2>
+                                    <h2>Principles That Drive Us Forward.</h2>
                                 </div>
                                 <p>
-                                    At Holitech, we are guided by a set of core values that define who we are and how we operate:
+                                    At Holitech, our values are the foundation of everything we create and
+                                    the way we connect with our partners and clients:
                                 </p>
                                 <ul>
                                     <li>
-                                    <strong>Innovation:</strong> We constantly strive to push boundaries and explore new possibilities.
+                                        <strong>Innovation:</strong> We embrace change, explore bold ideas, and
+                                        deliver solutions that shape the future.
                                     </li>
                                     <li>
-                                    <strong>Quality:</strong> We are committed to delivering products and services of the highest quality.
+                                        <strong>Excellence:</strong> We go beyond quality, ensuring every detail
+                                        reflects our commitment to perfection.
                                     </li>
                                     <li>
-                                    <strong>Integrity:</strong> We conduct business with honesty, transparency, and ethical integrity.
+                                        <strong>Integrity:</strong> We build trust through honesty, transparency,
+                                        and accountability in every interaction.
                                     </li>
                                     <li>
-                                    <strong>Collaboration:</strong> We believe in the power of teamwork and collaboration to achieve success.
+                                        <strong>Collaboration:</strong> We thrive on teamwork, uniting creativity,
+                                        strategy, and technology to achieve impact.
                                     </li>
                                     <li>
-                                    <strong>Customer Satisfaction:</strong> We prioritize the needs and satisfaction of our clients above all else.
+                                        <strong>Client Success:</strong> We measure our success by the growth,
+                                        satisfaction, and long-term value we bring to our clients.
                                     </li>
                                 </ul>
                             </div>
@@ -93,7 +109,7 @@ export default function AboutContent() {
                     </div>
                 </div>
             </div>
-            <AboutUsSec/>
+            <AboutUsSec />
             <div className="container">
                 <div className="our__achive__handler">
                     <div className="row">
@@ -105,27 +121,33 @@ export default function AboutContent() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="content__item ">
+                            <div className="content__item">
                                 <div className="main__title black">
                                     <span>Our Achievements</span>
-                                    <h2>Milestones and Recognition.</h2>
+                                    <h2>Milestones That Define Our Journey.</h2>
                                 </div>
                                 <p>
-                                Over the years, Holitech has achieved significant milestones and accolades, reflecting our commitment to excellence and customer satisfaction. Some of our notable achievements include:
+                                    At Holitech, every milestone tells a story of innovation, dedication, and
+                                    the trust our clients place in us. Here are some highlights that showcase
+                                    our growth and impact:
                                 </p>
                                 <ul>
                                     <li>
-                                    Successfully launching and maintaining a diverse portfolio of web and mobile applications for clients across various industries.
+                                        Successfully delivering a wide range of software, branding, and digital
+                                        solutions that empower businesses across multiple industries.
                                     </li>
                                     <li>
-                                    Receiving recognition and awards for our innovative solutions and exceptional service delivery.
+                                        Earning recognition for our forward-thinking strategies, creative design,
+                                        and outstanding customer experiences.
                                     </li>
                                     <li>
-                                    Building long-lasting partnerships with clients based on trust, reliability, and mutual success.
+                                        Establishing strong, long-term partnerships with clients built on
+                                        reliability, transparency, and shared success.
                                     </li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

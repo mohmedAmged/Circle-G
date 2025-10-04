@@ -36,12 +36,15 @@ export default function AboutUsSec() {
                                 <span>
                                     About us
                                 </span>
-                                <h2>
-                                    Direction with our company.
-                                </h2>
+                                <h2>Shaping the future with Circle G.</h2>
                             </div>
                             <p>
-                            Holitech is a forward-thinking tech company dedicated to crafting innovative solutions that empower businesses to thrive in the digital age. With a team of passionate developers and designers, we're committed to delivering cutting-edge web and mobile applications tailored to meet our clients' unique needs. Our focus on creativity, quality, and customer satisfaction sets us apart as a trusted partner in the digital landscape.
+                                Circle G is a creative digital solutions company dedicated to helping
+                                businesses thrive in the modern era. With a team of passionate developers,
+                                designers, and strategists, we deliver innovative websites, mobile apps,
+                                and digital experiences tailored to your goals. Our commitment to
+                                creativity, quality, and long-term success makes us a trusted partner
+                                in today’s fast-changing digital landscape.
                             </p>
                             <div className="our__mission__handler">
                                 <div className="mission__icon">
@@ -54,10 +57,11 @@ export default function AboutUsSec() {
                                         Our Mission
                                     </h5>
                                     <p>
-                                    At Holitech, our mission is to empower businesses with innovative technology solutions, tailored to their needs, driving growth and success.                                    </p>
+                                        At Circle G, our mission is to empower businesses through smart, innovative, and creative technology solutions that drive growth,
+                                        strengthen brands, and inspire success.                                </p>
                                 </div>
                             </div>
-                            <NavLink onClick={()=>scrollToTop()} to={'/about-us'} className='nav-link'>
+                            <NavLink onClick={() => scrollToTop()} to={'/about-us'} className='nav-link'>
                                 <div className="get__touch__btn hover__effect">
                                     About more
                                 </div>
