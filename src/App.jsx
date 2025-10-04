@@ -701,17 +701,19 @@ const servicesArray = [
     }
   });
   return (
-    <div className='full-height'>
+    <div className='App'>
       <MyNav scrollToggle={scrollToggle} />
       <ScrollToTopButton />
-      <Routes>
-        <Route path='/' element={<MyMainHome partnerArr={partnerArr} projcetCards={projcetCards} servicesArray={servicesArray} />} />
-        <Route path='/services' element={<MyAllServices servicesArray={servicesArray} />} />
-        <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
-        <Route path='/about-us' element={<AboutUsPage />} />
-        {/* <Route path='/projects' element={<MyProjectsPage projcetCards={projcetCards}/>} /> */}
-        {/* <Route path='/projects/:projectName' element={<SingleProjectPage projectDetails={projectDetails} projcetCards={projcetCards}/>} /> */}
-      </Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={<MyMainHome partnerArr={partnerArr} projcetCards={projcetCards} servicesArray={servicesArray} />} />
+          <Route path='/services' element={<MyAllServices servicesArray={servicesArray} />} />
+          <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
+          <Route path='/about-us' element={<AboutUsPage />} />
+          {/* <Route path='/projects' element={<MyProjectsPage projcetCards={projcetCards}/>} /> */}
+          {/* <Route path='/projects/:projectName' element={<SingleProjectPage projectDetails={projectDetails} projcetCards={projcetCards}/>} /> */}
+        </Routes>
+      </main>
       <MyFooter />
     </div>
   );
