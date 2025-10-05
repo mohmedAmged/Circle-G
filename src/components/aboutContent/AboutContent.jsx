@@ -44,7 +44,7 @@ export default function AboutContent() {
                                     <h2>Meet the Minds Driving Innovation.</h2>
                                 </div>
                                 <p>
-                                    At Holitech, our team is the heart of everything we do. From visionary
+                                    At Circle G, our team is the heart of everything we do. From visionary
                                     strategists and creative designers to skilled developers and marketing
                                     experts, each member brings unique expertise and passion to the table.
                                     Together, we blend technology, creativity, and business insight to craft
@@ -79,8 +79,7 @@ export default function AboutContent() {
                                     <h2>Principles That Drive Us Forward.</h2>
                                 </div>
                                 <p>
-                                    At Holitech, our values are the foundation of everything we create and
-                                    the way we connect with our partners and clients:
+                                    At Circle G, our values are the foundation of everything we create and the way we connect with our partners and clients:
                                 </p>
                                 <ul>
                                     <li>
@@ -127,7 +126,7 @@ export default function AboutContent() {
                                     <h2>Milestones That Define Our Journey.</h2>
                                 </div>
                                 <p>
-                                    At Holitech, every milestone tells a story of innovation, dedication, and
+                                    At Circle G, every milestone tells a story of innovation, dedication, and
                                     the trust our clients place in us. Here are some highlights that showcase
                                     our growth and impact:
                                 </p>
